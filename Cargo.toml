@@ -1,0 +1,16 @@
+[package]
+
+name = "shish"
+version = "0.0.1"
+authors = [ "Emily Hyland <hello@duien.com>" ]
+
+[dependencies]
+docopt = "0.6"
+docopt_macros = "0.6"
+rustc-serialize = "0.3"
+git2 = "0.3.0"
+
+# Build env?
+# needs `brew install openssl`
+#       `brew install libssh2`
+# env OPENSSL_LIB_DIR=/usr/local/opt/openssl/lib OPENSSL_INCLUDE_DIR=/usr/local/opt/openssl/include
